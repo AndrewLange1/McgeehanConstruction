@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import './index.css'
 import Header from "./Header";
 import Photos from "./Photos";
+import Specialties from "./Specialties";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Header/>
       <Photos/>
+      <Specialties/>
     </div>
     </>
   );

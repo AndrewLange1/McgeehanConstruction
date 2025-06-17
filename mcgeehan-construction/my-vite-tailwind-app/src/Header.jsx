@@ -11,7 +11,7 @@ function Header() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const isWide = width >= 1040;
+  const isWide = width >= 1060;
 
   let scale;
   if (width >= 800) {
@@ -30,7 +30,7 @@ function Header() {
         alt="logo"
         className="h-[100px]"
         style={{
-          transform: `scale(${scale}) translateX(${-(1 - scale) * 50}px)`,
+          transform: `scale(${scale}) translateX(${-(1 - scale) * 220}px)`,
           transformOrigin: "left center",
           transition: "transform 75ms linear",
         }}/>  

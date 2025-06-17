@@ -43,13 +43,13 @@ function Photos() {
       />
       <button
         onClick={goToPrevious}
-        className="absolute top-1/2 left-3 transform -translate-y-1/2 bg-black/50 text-white px-3 py-1 rounded hover:bg-black/70 z-10 text-xl"
+        className="absolute top-1/2 left-3 transform -translate-y-1/2 bg-black/50 text-white px-3 py-1 hover:bg-black/70 z-10 text-xl"
       >
         ‹
       </button>
       <button
         onClick={goToNext}
-        className="absolute top-1/2 right-3 transform -translate-y-1/2 bg-black/50 text-white px-3 py-1 rounded hover:bg-black/70 z-10 text-xl"
+        className="absolute top-1/2 right-3 transform -translate-y-1/2 bg-black/50 text-white px-3 py-1 hover:bg-black/70 z-10 text-xl"
       >
         ›
       </button>
