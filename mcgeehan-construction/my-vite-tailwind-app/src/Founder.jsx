@@ -6,7 +6,7 @@ function Excellence() {
     <div className="w-full flex justify-center mt-[5%]">
       <div className="text-[clamp(14px,2.5vw,40px)] font-light flex flex-col items-center">
         <span>MEET THE FOUNDER</span>
-        <img src="./public/profile.jpg" className="aspect-square w-[12vw] rounded-full mt-[5%]" />
+        <img src="/profile.jpg" className="aspect-square w-[12vw] rounded-full mt-[5%]" />
         <div className="flex flex-col items-center mt-[5%] text-[clamp(9px,1.7vw,25px)] font-extralight">
             <span>At 19 years old, David McGeehan - born and raised in Owosso Michigan - decided to take a risk and </span>
             <span>start his own construction company. At first David learned invaluable customer service skills,</span>

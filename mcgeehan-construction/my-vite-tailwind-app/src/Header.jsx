@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import './index.css'
 
 function Header() {
@@ -11,7 +12,7 @@ function Header() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const isWide = width >= 1060;
+  const isWide = width >= 1240;
 
   let scale;
   if (width >= 800) {
@@ -25,21 +26,26 @@ function Header() {
   return (
     <>
       <div className="h-[100px] flex items-center bg-off-white px-[50px] relative">
-      <img
-        src="TransparentMcGeehan3.png"
-        alt="logo"
-        className="h-[100px]"
-        style={{
-          transform: `scale(${scale}) translateX(${-(1 - scale) * 220}px)`,
-          transformOrigin: "left center",
-          transition: "transform 75ms linear",
-        }}/>  
+        <Link to="/">
+        <div className="group">
+          <img
+            src="TransparentMcGeehan3.png"
+            alt="logo"
+            className="h-[100px] cursor-pointer transition-transform duration-200 group-hover:scale-[1.05]"
+            style={{
+              transform: `scale(${scale}) translateX(${-(1 - scale) * 220}px)`,
+              transformOrigin: "left center",
+            }}
+          />
+        </div>
+        </Link>
         <div className="flex items-center ml-auto mr-[5px] space-x-[6vw]">
           {isWide && (
             <div className="flex space-x-[6vw] text-[20px] font-display font-extralight">
-              <div className="cursor-pointer">Commercial</div>
-              <div className="cursor-pointer">Residential</div>
-              <div className="cursor-pointer">New Construction</div>
+              <Link to="/commercial" className="cursor-pointer hover:text-dark-blue/70">Commercial</Link>
+              <Link to="/residential" className="cursor-pointer hover:text-dark-blue/70">Residential</Link>
+              <Link to="/construction" className="cursor-pointer hover:text-dark-blue/70">New Construction</Link>
+              <Link to ="/financial" className="cursor-pointer hover:text-dark-blue/70">Financial</Link>
             </div>
           )}
 
@@ -79,9 +85,10 @@ function Header() {
             className="absolute bg-off-white shadow-lg rounded-md p-4 flex flex-col space-y-3 font-display font-extralight text-[18px] z-50"
             style={{ minWidth: '180px', top: '100%', right: 0 }}
           >
-            <a href="#" className="cursor-pointer hover:text-dark-blue" onClick={() => setMenuOpen(false)}>Commercial</a>
-            <a href="#" className="cursor-pointer hover:text-dark-blue" onClick={() => setMenuOpen(false)}>Residential</a>
-            <a href="#" className="cursor-pointer hover:text-dark-blue" onClick={() => setMenuOpen(false)}>New Construction</a>
+           <Link to="/commercial" className="cursor-pointer hover:text-dark-blue/70" onClick={() => setMenuOpen(false)}>Commercial</Link>
+           <Link to="/residential" className="cursor-pointer hover:text-dark-blue/70" onClick={() => setMenuOpen(false)}>Residential</Link>
+           <Link to="/construction" className="cursor-pointer hover:text-dark-blue/70" onClick={() => setMenuOpen(false)}>New Construction</Link>
+           <Link to="/financial" className="cursor-pointer hover:text-dark-blue/70" onClick={() => setMenuOpen(false)}>Financial</Link>
           </div>
         )}
       </div>
