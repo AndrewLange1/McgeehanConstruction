@@ -1,1 +1,1 @@
-web: cd my-vite-tailwind-app && npm start
+web: cd my-vite-tailwind-app && npm install && npm run build && npx serve -s dist
