@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --color-off-white: #fff9ef; 
+    --color-dark-blue: #23263e;
+    --font-display: 'Inter', sans serif;
+    --breakpoint-med: 56rem;
+    --breakpoint-smal: 40rem;
+  }
+
+

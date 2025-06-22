@@ -1,0 +1,1 @@
+web: cd my-vite-tailwind-app && npm start
