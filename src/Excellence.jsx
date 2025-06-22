@@ -23,14 +23,15 @@ function Excellence() {
         <span>project or a large commercial renovation,</span>
         <span>we will work with you to make sure your</span>
         <span>plans go to action asap. With a close-knit</span>
-        <span>local team you can expect fast - and easy -</span>
-        <span>communication. Our services include</span>
-        <span>residential, commercial, and other miscellaneous</span>
-        <span>projects. If you have an idea, we’ll work with</span>
-        <span>you to help get it done! Working with pros</span>
-        <span>has never been easier. Call us today for</span>
-        <span>a free consultation — we’re</span>
-        <span>excited to help!</span>
+        <span>local team you can expect fast - and easy</span>
+        <span>easy - communication. Our services include</span>
+        <span>residential, commercial, and other</span>
+        <span>miscellaneous projects. If you have an</span>
+        <span>idea, we’ll work with you to help get it</span>
+        <span>done! Working with pros has never been</span>
+        <span>easier. Call us today for a free</span>
+        <span>consultation — we’re excited</span>
+        <span>to help!</span>
         </div>
         <a
           href="mailto:mcgeehanconstruction@gmail.com"
