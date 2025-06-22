@@ -15,7 +15,7 @@ function Excellence() {
           <span>professionals has never been easier. Be sure to call us today for a free consultation.</span>
           <span>We’re looking forward to working with you!</span>
         </div>
-        <div className="med:hidden flex flex-col items-center mt-[4%] text-[clamp(15px,2.8vw,20px)] font-extralight px-[10%] text-center leading-relaxed w-full max-w-[1000px]">
+        <div className="med:hidden flex flex-col items-center mt-[4%] text-[clamp(17px,2.8vw,20px)] font-extralight px-[10%] text-center leading-relaxed w-full max-w-[1000px]">
         <span>Here at McGeehan Construction we pride</span>
         <span>ourselvesourselves in the relationships we build</span>
         <span>with our customers. Whether you are looking</span>
@@ -25,9 +25,10 @@ function Excellence() {
         <span>local team you can expect fast - and easy - </span>
         <span>communication. Our services include residential,</span>
         <span>commercial, and other miscellaneous projects. If</span>
-        <span>you have an idea, we’ll work with you to help get it done!</span>
-        <span>Working with pros has never been easier. Call us today</span>
-        <span>for a free consultation — we’re excited to help!</span>
+        <span>you have an idea, we’ll work with you to help get</span>
+        <span>it done! Working with pros has never been easier.</span>
+        <span>Call us today for a free consultation —</span>
+        <span>we’re excited to help!</span>
         </div>
         <a
           href="mailto:mcgeehanconstruction@gmail.com"
