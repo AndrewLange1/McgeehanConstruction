@@ -53,7 +53,7 @@ function Header() {
             <Link to="/commercial" className="cursor-pointer hover:text-dark-blue/70">Commercial</Link>
             <Link to="/residential" className="cursor-pointer hover:text-dark-blue/70">Residential</Link>
             <Link to="/construction" className="cursor-pointer hover:text-dark-blue/70">New Construction</Link>
-            <Link to="/financial" className="cursor-pointer hover:text-dark-blue/70">Financial</Link>
+            <Link to="/financial" className="cursor-pointer hover:text-dark-blue/70">Financing</Link>
           </div>
         )}
 
@@ -66,7 +66,7 @@ function Header() {
             type="button"
           >
             <span>CONTACT US NOW</span>
-            <span>989-227-1612</span>
+            <span>989-277-1612</span>
           </button>
         </a>
 
@@ -94,7 +94,7 @@ function Header() {
           <Link to="/commercial" className="cursor-pointer hover:text-dark-blue/70" onClick={() => setMenuOpen(false)}>Commercial</Link>
           <Link to="/residential" className="cursor-pointer hover:text-dark-blue/70" onClick={() => setMenuOpen(false)}>Residential</Link>
           <Link to="/construction" className="cursor-pointer hover:text-dark-blue/70" onClick={() => setMenuOpen(false)}>New Construction</Link>
-          <Link to="/financial" className="cursor-pointer hover:text-dark-blue/70" onClick={() => setMenuOpen(false)}>Financial</Link>
+          <Link to="/financial" className="cursor-pointer hover:text-dark-blue/70" onClick={() => setMenuOpen(false)}>Financing</Link>
         </div>
       )}
     </div>

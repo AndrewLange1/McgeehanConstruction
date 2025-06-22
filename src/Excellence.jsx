@@ -16,19 +16,17 @@ function Excellence() {
           <span>We’re looking forward to working with you!</span>
         </div>
         <div className="med:hidden flex flex-col items-center mt-[4%] text-[clamp(15px,2.8vw,20px)] font-extralight px-[10%] text-center leading-relaxed w-full max-w-[1000px]">
-        <span>Here at McGeehan Construction we pride ourselves</span>
-        <span>in the relationships we build with our customers.</span>
-        <span>Whether you are looking for a small backyard project or</span>
-        <span>a large commercial renovation, we will work with you.</span>
-
-        <span>To make sure your plans go to action asap, we maintain</span>
-        <span>a close-knit local team you can count on for fast, easy</span>
-
+        <span>Here at McGeehan Construction we pride</span>
+        <span>ourselvesourselves in the relationships we build</span>
+        <span>with our customers. Whether you are looking</span>
+        <span>for a small backyard project or a large commercial</span>
+        <span>renovation, we will work with you. To make sure</span>
+        <span>your plans go to action asap. With a close-knit</span>
+        <span>local team you can expect fast - and easy - </span>
         <span>communication. Our services include residential,</span>
-        <span>commercial, and miscellaneous projects — if you have</span>
-
-        <span>an idea, we’ll help make it happen. Working with pros</span>
-        <span>has never been easier or more seamless Call us today</span>
+        <span>commercial, and other miscellaneous projects. If</span>
+        <span>you have an idea, we’ll work with you to help get it done!</span>
+        <span>Working with pros has never been easier. Call us today</span>
         <span>for a free consultation — we’re excited to help!</span>
         </div>
         <a
