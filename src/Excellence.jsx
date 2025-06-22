@@ -16,25 +16,39 @@ function Excellence() {
           <span>We’re looking forward to working with you!</span>
         </div>
         <div className="med:hidden flex flex-col items-center mt-[4%] text-[clamp(18px,2.8vw,20px)] font-extralight px-[10%] text-center leading-relaxed w-full max-w-[1000px]">
-        <span>Here at McGeehan Construction we</span>
-        <span>pride ourselves in the</span>
-        <span>relationships we build with our</span>
-        <span>customers. Whether you are</span>
-        <span>looking for a small backyard</span>
-        <span>project or a large commercial</span>
-        <span>renovation, we will work with</span>
-        <span>you to make sure your plans go</span>
-        <span>to action asap. With a close-knit</span>
-        <span>local team you can expect fast,</span>
-        <span>and easy, communication. Our</span>
-        <span>services include residential,</span>
-        <span>commercial, and other miscellaneous</span>
-        <span>projects. If you have an idea,</span>
-        <span>we’ll work with you to help get it</span>
-        <span>done! Working with pros has never</span>
-        <span>been easier. Call us today for a</span>
-        <span>free consultation. We’re</span>
-        <span>excited to help!</span>
+        <div className="tiny:flex med:hidden flex-col items-center mt-[4%] text-[clamp(13px,4vw,18px)] font-extralight px-[6%] text-center leading-snug w-full max-w-[1000px] hidden">
+  <span>Here at McGeehan Construction</span>
+  <span>we pride ourselves</span>
+  <span>in the relationships we build</span>
+  <span>with our customers.</span>
+
+  <span>Whether you are looking for</span>
+  <span>a small backyard project</span>
+  <span>or a large commercial renovation,</span>
+  <span>we will work with you</span>
+
+  <span>to make sure your plans</span>
+  <span>go to action asap.</span>
+  <span>With a close knit local team,</span>
+  <span>you can expect fast –</span>
+  <span>and easy – communication.</span>
+
+  <span>Our services include residential,</span>
+  <span>commercial, and other miscellaneous projects.</span>
+
+  <span>If you have an idea,</span>
+  <span>we’ll work with you</span>
+  <span>to help get it done!</span>
+
+  <span>Working with professionals</span>
+  <span>has never been easier.</span>
+  <span>Be sure to call us today</span>
+  <span>for a free consultation.</span>
+  <span>We’re looking forward</span>
+  <span>to working with you!</span>
+</div>
+
+
         </div>
         <a
           href="mailto:mcgeehanconstruction@gmail.com"
