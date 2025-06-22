@@ -22,16 +22,16 @@ function Excellence() {
         <span>you are looking for a small backyard</span>
         <span>project or a large commercial renovation,</span>
         <span>we will work with you to make sure your</span>
-        <span>plans go to action asap. With a close-knit</span>
-        <span>local team you can expect fast - and easy</span>
-        <span>easy - communication. Our services include</span>
-        <span>residential, commercial, and other</span>
-        <span>miscellaneous projects. If you have an</span>
-        <span>idea, we’ll work with you to help get it</span>
-        <span>done! Working with pros has never been</span>
-        <span>easier. Call us today for a free</span>
-        <span>consultation — we’re excited</span>
-        <span>to help!</span>
+        <span>plans go to action asap. With a</span>
+        <span>close-knit local team you can expect</span>
+        <span>fast - and easy - communication. Our</span>
+        <span>services include residential,</span>
+        <span>commercial, and other miscellaneous</span>
+        <span>projects. If you have an idea, we’ll</span>
+        <span>work with you to help get it done!</span>
+        <span>Working with pros has never been easier.</span>
+        <span>Call us today for a free consultation.</span>
+        <span>We’re excited to help!</span>
         </div>
         <a
           href="mailto:mcgeehanconstruction@gmail.com"
