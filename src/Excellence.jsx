@@ -6,8 +6,6 @@ function Excellence() {
     <div>
       <div className="flex flex-col items-center justify-center mt-[5%] text-[clamp(23px,3.5vw,35px)] font-light">
         Excellence – It's what we do
-
-        {/* Original span layout (visible on medium and up) */}
         <div className="med:flex flex-col items-center mt-[5%] text-[clamp(18px,2vw,23px)] font-extralight hidden px-4 text-center leading-relaxed">
           <span>Here at McGeehan Construction we pride ourselves in the relationships we build with our customers.</span>
           <span>Whether you are looking for a small backyard project or a large commercial renovation, we will</span>

@@ -21,15 +21,22 @@ function Commercial() {
       </div>
 
       {/* Description */}
-      <div className="mt-[2%] px-[5%] text-center flex flex-col text-black font-light text-[clamp(12px,1.5vw,20px)]">
-        <span>At McGeehan Construction, we specialize in delivering high-quality commercial</span>
-        <span>projects tailored to meet the unique needs of businesses. From modern</span>
-        <span>office spaces to retail renovations, we bring expertise,</span>
-        <span>precision, and reliability to every job.</span>
+      {/* SPAN layout for med+ screens */}
+      <div className="hidden med:flex flex-col items-center mt-[3%] px-[8%] text-center text-black font-light text-[clamp(16px,2vw,23px)] leading-relaxed">
+        <span>At McGeehan Construction, we specialize in delivering high-quality commercial projects</span>
+        <span>tailored to meet the unique needs of businesses. From modern office spaces</span>
+        <span>to retail renovations, we bring expertise, precision, and reliability to every job.</span>
+      </div>
+
+      {/* PARAGRAPH layout for small screens */}
+      <div className="med:hidden block mt-[5%] px-[10%] text-center text-black font-light text-[clamp(16px,3vw,20px)] leading-relaxed">
+        <p>
+          At McGeehan Construction, we specialize in delivering high-quality commercial projects tailored to meet the unique needs of businesses. From modern office spaces to retail renovations, we bring expertise, precision, and reliability to every job.
+        </p>
       </div>
 
       {/* Side-by-side images */}
-      <div className="flex flex-col items-center mt-[4%] mb-[3%]">
+      <div className="flex flex-col items-center mt-[5%] mb-[3%]">
         <div className="flex flex-col sm:flex-row justify-center items-center gap-[2vw] w-full px-[5%]">
           <img
             src="/House1.webp"
