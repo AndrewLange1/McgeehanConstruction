@@ -17,15 +17,11 @@ function Excellence() {
           <span>professionals has never been easier. Be sure to call us today for a free consultation.</span>
           <span>We’re looking forward to working with you!</span>
         </div>
-
-        {/* Paragraph version (visible only on small screens) */}
         <div className="med:hidden block mt-[5%] text-[clamp(18px,3vw,20px)] font-extralight px-[8%] text-center leading-relaxed max-w-[1000px]">
           <p>
             Here at McGeehan Construction we pride ourselves in the relationships we build with our customers. Whether you are looking for a small backyard project or a large commercial renovation, we will work with you to make sure your plans go to action asap. With a close knit local team, you can expect fast – and easy – communication. Our services include residential, commercial, and other miscellaneous projects. If you have an idea, we’ll work with you to help get it done! Working with professionals has never been easier. Be sure to call us today for a free consultation. We’re looking forward to working with you!
           </p>
         </div>
-
-        {/* Contact Button */}
         <a
           href="mailto:mcgeehanconstruction@gmail.com"
           className="flex hover:bg-dark-blue/80 cursor-pointer bg-dark-blue mt-[8%] h-[15vw] med:h-[11vw] w-[66%] med:w-[40%] rounded-[8px] med:text-[clamp(18px,2vw,23px)] text-[clamp(15px,2.8vw,20px)] flex-col justify-center text-white items-center text-center"
