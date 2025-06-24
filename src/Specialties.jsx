@@ -56,9 +56,9 @@ function Specialties() {
 
   return (
     <div className="font-display text-black text-center items-center mt-[2%] font-light flex flex-col">
-      <div className="text-[clamp(20px,3.5vw,40px)] mb-6">OUR SPECIALTIES</div>
+      <div className="text-[clamp(20px,3.5vw,40px)] mt-[4%] med:mt-[1%] ">OUR SPECIALTIES</div>
 
-      <div className="mt-[4%] text-white flex flex-col items-center gap-6 med:flex-row med:px-[2%] med:gap-[2%] w-full justify-center">
+      <div className="med:mt-[3%] mt-[4%] text-white flex flex-col items-center gap-6 med:flex-row med:px-[2%] med:gap-[2%] w-full justify-center">
         {specialties.map(({ title, route, paragraph }, index) => (
           <button
             key={index}
@@ -93,7 +93,7 @@ function Specialties() {
 
               <button
                 onClick={() => navigate(route)}
-                className="hover:bg-off-white/80 cursor-pointer bg-off-white mx-auto h-[11vw] max-h-[60px] w-[80%] rounded-md text-[clamp(13px,3vw,22px)] text-black flex items-center justify-center"
+                className="hover:bg-off-white/80 cursor-pointer bg-off-white mx-auto h-[11vw] max-h-[60px] w-[90%] rounded-md text-[clamp(16px,3vw,20px)] text-black flex items-center justify-center"
               >
                 <span>CLICK HERE TO LEARN MORE</span>
                 <img src="right-arrow.svg" className="h-[45%] ml-2" />
