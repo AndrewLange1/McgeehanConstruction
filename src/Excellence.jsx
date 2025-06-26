@@ -22,7 +22,7 @@ function Excellence() {
         </div>
         <a
           href="mailto:mcgeehanconstruction@gmail.com"
-          className="flex hover:bg-dark-blue/80 cursor-pointer bg-dark-blue mt-[8%] h-[15vw] med:h-[11vw] w-[75%] med:w-[40%] rounded-[8px] med:text-[clamp(18px,2vw,23px)] text-[clamp(18px,3vw,20px)] flex-col justify-center text-white items-center text-center"
+          className="flex hover:bg-dark-blue/80 cursor-pointer bg-dark-blue mt-[8%] h-[17vw] med:h-[11vw] w-[75%] med:w-[40%] rounded-[8px] med:text-[clamp(18px,2vw,23px)] text-[clamp(18px,3vw,20px)] flex-col justify-center text-white items-center text-center"
         >
           <span>HAVE ANY QUESTIONS?</span>
           <span className="mt-[1%] med:mt-[3%]">mcgeehanconstruction@gmail.com</span>
