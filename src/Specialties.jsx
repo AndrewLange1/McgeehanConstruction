@@ -93,7 +93,7 @@ function Specialties() {
 
               <button
                 onClick={() => navigate(route)}
-                className="hover:bg-off-white/80 cursor-pointer bg-off-white mx-auto h-[11vw] max-h-[60px] w-[90%] rounded-md text-[clamp(16px,3vw,20px)] text-black flex items-center justify-center"
+                className="hover:bg-off-white/80 cursor-pointer bg-off-white mx-auto h-[13vw] max-h-[60px] w-[95%] rounded-md text-[clamp(16px,3vw,20px)] text-black flex items-center justify-center"
               >
                 <span>CLICK HERE TO LEARN MORE</span>
                 <img src="right-arrow.svg" className="h-[45%] ml-2" />
